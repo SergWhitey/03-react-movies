@@ -9,7 +9,7 @@ import Loader from '../../Loader/Loader';
 import ErrorMessage from '../../ErrorMessage/ErrorMessage';
 import MovieModal from '../MovieModal';
 const token = import.meta.env.VITE_TMDB_TOKEN;
-import './index.css';
+import '../../index.css';
 const App = () => {
     const [movies, setMovies] = useState([]);
     const [selectedMovie, setSelectedMovie] = useState(null);
