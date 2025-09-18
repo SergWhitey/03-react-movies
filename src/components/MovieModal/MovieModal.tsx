@@ -16,7 +16,6 @@ const MovieModal: React.FC<MovieModalProps> = ({ movie, onClose }) => {
   };
 
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    // закриття при кліку поза модалкою
     if (e.target === e.currentTarget) {
       onClose();
     }
