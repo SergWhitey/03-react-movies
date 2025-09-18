@@ -1,0 +1,33 @@
+.header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #61dafb;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
