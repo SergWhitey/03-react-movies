@@ -7,7 +7,7 @@ const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p';
 const token = import.meta.env.VITE_TMDB_TOKEN;
 
 if (!token) {
-  throw new Error('VITE_TMDB_TOKEN is not defined in environment variables');
+  throw new Error('VITE_TMDB_TOKEN is not defined in environment variables.');
 }
 
 const axiosInstance = axios.create({
