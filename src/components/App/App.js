@@ -2,12 +2,12 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from 'react';
 import { Toaster } from 'react-hot-toast';
 import { toast } from 'react-hot-toast';
-import { fetchMovies } from '../../../services/movieService';
-import SearchBar from '../../SearchBar/SearchBar';
-import MovieGrid from '../../MovieGrid/MovieGrid';
-import Loader from '../../Loader/Loader';
-import ErrorMessage from '../../ErrorMessage/ErrorMessage';
-import MovieModal from '../MovieModal';
+import { fetchMovies } from '../../services/movieService';
+import SearchBar from '../SearchBar/SearchBar';
+import MovieGrid from '../MovieGrid/MovieGrid';
+import Loader from '../Loader/Loader';
+import ErrorMessage from '../ErrorMessage/ErrorMessage';
+import MovieModal from '../MovieModal/MovieModal.tsx';
 const token = import.meta.env.VITE_TMDB_TOKEN;
 import '../../index.css';
 const App = () => {

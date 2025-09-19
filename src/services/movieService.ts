@@ -13,7 +13,7 @@ if (!token) {
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
   headers: {
-    Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZDhmZjg0OThlZDdmNjJiMGM4ZjljZTE1YTcyOTU0ZSIsIm5iZiI6MTc1ODIyNjc3MC4zMTEsInN1YiI6IjY4Y2M2OTUyNTAwNGMxMTgzY2JkMGRjNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Sj8ciJRfNcgXbL6uZ6uiaj6tBfcrTDzMAgbfQCULkZ4`,
+    Authorization: `Bearer ${token}`,
   },
 });
 
